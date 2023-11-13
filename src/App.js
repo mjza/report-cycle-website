@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import SvgComponent from './SvgComponent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <SvgComponent/>
         <p>
-          We are working on something amazing.
+          We're working on something amazing.
         </p>
         <p>Launch time: May 15, 2024</p>
       </header>
