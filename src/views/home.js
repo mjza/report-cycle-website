@@ -72,7 +72,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-right">
-                <span className="home-sign-in Link">Contact Us</span>
+              <a href="#contact"><span className="home-sign-in Link">Contact Us</span></a>
                 <a
                   href="https://myreport.app"
                   target="_blank"
@@ -632,7 +632,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <div className="home-get-started4 template-button">
                 <span className="home-text087">
-                  <span>Contact us</span>
+                  <a href="#contact"><span>Contact us</span></a>
                   <br></br>
                 </span>
               </div>
@@ -1061,7 +1061,7 @@ Here's what the above is doing:
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
-            <div className="home-contact">
+            <div className="home-contact" id="contact">
               <span className="home-text128">Contact</span>
               <a
                 href="mailto:info@reportcycle.com?subject=Support"

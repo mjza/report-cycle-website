@@ -243,7 +243,7 @@
   padding-left: var(--dl-space-space-sevenunits);
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
-  background-color: EFF0F2;
+  background-color: #EFF0F2;
 }
 .home-title {
   display: flex;
