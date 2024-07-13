@@ -260,7 +260,7 @@ closeButton.addEventListener("click", function() {
             <img alt="image" src="/mahdi-200h.webp" className="home-avatar" />
             <span className="home-quote1">
               <span className="home-text034">—  Mahdi Ansari</span>
-              <span>, Founder and CEO, Active</span>
+              <span>, Founder and CEO, RC</span>
             </span>
           </div>
         </div>
