@@ -1,14 +1,24 @@
 .you-tube-you-tube {
-  width: 240px;
+  width: auto;
   height: 120px;
   display: flex;
   align-items: center;
+  padding-left: var(--dl-space-space-twounits);
   border-radius: 200px;
+  padding-right: var(--dl-space-space-twounits);
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.you-tube-pasted-image {
-  width: 120px;
+.you-tube-icon {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.you-tube-text {
+  width: auto;
+}
+.you-tube-root-class-name {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
 }
 @media(max-width: 479px) {
   .you-tube-you-tube {
@@ -16,7 +26,7 @@
     height: 60px;
     align-items: center;
   }
-  .you-tube-pasted-image {
-    width: 80px;
+  .you-tube-root-class-name {
+    width: auto;
   }
 }

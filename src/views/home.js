@@ -65,22 +65,29 @@ const Home = (props) => {
                   />
                 </a>
                 <div className="home-links1">
-                  <span className="Link">About us</span>
+                  <span className="home-text004 Link">About us</span>
                   <span className="home-text004 Link">How it works</span>
-                  <span className="Link">Investment</span>
-                  <span className="Link">Join us</span>
+                  <a href="#investment" className="home-link01 Link">
+                    Investment
+                  </a>
+                  <span className="home-text005 Link">Join us</span>
                 </div>
               </div>
               <div className="home-right">
-              <a href="#contact"><span className="home-sign-in Link">Contact Us</span></a>
+                <a
+                  href="mailto:info@reportcycle.com?subject=Need more info"
+                  className="home-link03"
+                >
+                  <span className="home-sign-in Link">Contact Us</span>
+                </a>
                 <a
                   href="https://myreport.app"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link01"
+                  className="home-link02"
                 >
                   <div className="home-get-started">
-                    <span className="home-text007">Get started</span>
+                    <span className="home-text006">Get started</span>
                   </div>
                 </a>
                 <div id="open-mobile-menu" className="home-burger-menu">
@@ -123,17 +130,17 @@ closeButton.addEventListener("click", function() {
           </div>
         </header>
         <header className="home-content">
-          <h1 className="home-text008">Let&apos;s the job get done!</h1>
-          <p className="home-text009">
-            Transforming the way cities handle public reports with ease and
-            efficiency!
+          <h1 className="home-text007">Let&apos;s the job get done!</h1>
+          <p className="home-text008">
+            Transforming the way organizations handle issue reports with ease
+            and efficiency!
           </p>
           <a
             href="mailto:info@reportcycle.com?subject=Request a demo"
-            className="home-link02"
+            className="home-link03"
           >
             <div className="home-request-a-demo">
-              <span className="home-text010">Request a demo</span>
+              <span className="home-text009">Request a demo</span>
             </div>
           </a>
         </header>
@@ -152,8 +159,8 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className="home-features">
         <div className="home-title">
-          <span className="home-text011">Why using Report Cycle?</span>
-          <span className="home-text012">RC powers are as follows</span>
+          <span className="home-text010">Why using Report Cycle?</span>
+          <span className="home-text011">RC powers are as follows</span>
         </div>
         <div className="home-cards">
           <div className="home-container03">
@@ -163,9 +170,9 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-mimg-200h.webp"
                 className="home-icon02"
               />
-              <span className="home-text013">Effortless Reporting</span>
-              <span className="home-text014">
-                Easily report city issues with a user-friendly interface. Snap a
+              <span className="home-text012">Effortless Reporting</span>
+              <span className="home-text013">
+                Easily report issues with a user-friendly interface. Snap a
                 photo, provide details, and submit directly through the app.
               </span>
             </div>
@@ -175,11 +182,11 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-fii6m-200h.webp"
                 className="home-icon03"
               />
-              <span className="home-text015">
+              <span className="home-text014">
                 <span>Real-Time Tracking</span>
                 <br></br>
               </span>
-              <span className="home-text018">
+              <span className="home-text017">
                 <span>
                   Stay updated with real-time tracking of your report&apos;s
                   status. Get notified when issues are resolved.
@@ -195,9 +202,9 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-l6p-200h.webp"
                 className="home-icon04"
               />
-              <span className="home-text021">Data-Driven Insights</span>
-              <span className="home-text022">
-                City officials can access comprehensive data insights to
+              <span className="home-text020">Data-Driven Insights</span>
+              <span className="home-text021">
+                Desicion makers can access comprehensive data insights to
                 prioritize and address recurring issues effectively.
               </span>
             </div>
@@ -207,10 +214,10 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-vyi5-200h.webp"
                 className="home-icon05"
               />
-              <span className="home-text023">Community Engagement</span>
-              <span className="home-text024">
+              <span className="home-text022">Community Engagement</span>
+              <span className="home-text023">
                 Engage with your community by seeing and supporting reports made
-                by others. Together, we make our city better.
+                by others. Together, we make our environment better.
               </span>
             </div>
           </div>
@@ -221,11 +228,11 @@ closeButton.addEventListener("click", function() {
                 src="/secure-200h.webp"
                 className="home-icon06"
               />
-              <span className="home-text025">Secure and Private</span>
-              <span className="home-text026">
+              <span className="home-text024">Secure and Private</span>
+              <span className="home-text025">
                 <span>
                   Your data is secure with us. We prioritize your privacy and
-                  ensure your information is protected.
+                  ensure your sensitive information is protected.
                 </span>
                 <br></br>
               </span>
@@ -236,12 +243,12 @@ closeButton.addEventListener("click", function() {
                 src="/ai-200h.webp"
                 className="home-icon07"
               />
-              <span className="home-text029">AI Powered</span>
-              <span className="home-text030">
-                <span className="home-text031">
-                  AI is utelized for collecting and analyzing reports.
+              <span className="home-text028">AI Powered</span>
+              <span className="home-text029">
+                <span className="home-text030">
+                  Empowerd by AI tools and features for collecting data, and
+                  generating and analyzing reports.
                 </span>
-                <br></br>
                 <br></br>
               </span>
             </div>
@@ -259,7 +266,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-author">
             <img alt="image" src="/mahdi-200h.webp" className="home-avatar" />
             <span className="home-quote1">
-              <span className="home-text034">—  Mahdi Ansari</span>
+              <span className="home-text032">—  Mahdi Ansari</span>
               <span>, Founder and CEO, RC</span>
             </span>
           </div>
@@ -280,9 +287,9 @@ closeButton.addEventListener("click", function() {
         <div className="home-banner-empower-your-community">
           <div className="home-container07">
             <div className="home-left1">
-              <span className="home-text036 title">Empower Your Community</span>
-              <span className="home-text037">
-                Spot issues? Report instantly with Report Cycle app! Whether
+              <span className="home-text034 title">Empower Your Community</span>
+              <span className="home-text035">
+                Spot issues? Report instantly with My Report app! Whether
                 it&apos;s damage in your neighborhood, suggestions for the
                 advancement of a city, organizational flaws, or service
                 complaints, share them privately with facility managers or
@@ -291,10 +298,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <a
                 href="mailto:info@reportcycle.com?subject=Need to know more about RC"
-                className="home-link03"
+                className="home-link04"
               >
                 <div className="home-learn-more template-button">
-                  <span className="home-text038">Learn more</span>
+                  <span className="home-text036">Learn more</span>
                 </div>
               </a>
             </div>
@@ -321,20 +328,20 @@ closeButton.addEventListener("click", function() {
               />
             </div>
             <div className="home-right1">
-              <h2 className="home-text039 title">Engage With Organizations</h2>
-              <span className="home-text040">
-                Take action in your community with Report Cycle app. Vote on
-                local issues, track their resolution, and stay informed by
-                simply scanning QR codes on issue announcements. Your
-                involvement can drive change. Start by keeping updated on the
-                progress of reports in your neighborhood.
+              <h2 className="home-text037 title">Engage With Organizations</h2>
+              <span className="home-text038">
+                Take action in your community with My Report app. Vote on local
+                issues, track their resolution, and stay informed by simply
+                scanning QR codes on issue announcements. Your involvement can
+                drive change. Start by keeping updated on the progress of
+                reports in your community.
               </span>
               <a
                 href="mailto:info@reportcycle.com?subject=Need to know more about RC"
-                className="home-link04"
+                className="home-link05"
               >
                 <div className="home-learn-more1 template-button">
-                  <span className="home-text041">Learn more</span>
+                  <span className="home-text039">Learn more</span>
                 </div>
               </a>
             </div>
@@ -343,22 +350,22 @@ closeButton.addEventListener("click", function() {
         <div className="home-banner-enhance-citizen-satisfaction">
           <div className="home-container08">
             <div className="home-left2">
-              <h2 className="home-text042 title">
-                Enhance Citizen Satisfaction
+              <h2 className="home-text040 title">
+                Enhance Community Satisfaction
               </h2>
-              <span className="home-text043">
-                Report Cycle app is designed with happiness in mind. As a smart
-                city solution, it not only facilitates efficient issue reporting
-                and monitoring but also rewards engaged citizens with perks from
-                local institutions. Report, monitor, and get rewarded. Join our
-                community of responsible citizens.
+              <span className="home-text041">
+                My Report app is designed with happiness in mind. As a facility
+                management solution, it not only facilitates efficient issue
+                reporting and monitoring but also rewards engaged community
+                members with perks from local institutions. Report, monitor, and
+                get rewarded.
               </span>
               <a
                 href="mailto:info@reportcycle.com?subject=Need to know more about RC"
-                className="home-link05"
+                className="home-link06"
               >
                 <div className="home-learn-more2 template-button">
-                  <span className="home-text044">Learn more</span>
+                  <span className="home-text042">Learn more</span>
                 </div>
               </a>
             </div>
@@ -385,47 +392,58 @@ closeButton.addEventListener("click", function() {
               />
             </div>
             <div className="home-right2">
-              <h2 className="home-text045 title">Stay Updated Locally</h2>
-              <span className="home-text046">
-                Keep your finger on the pulse of your city with MyReportApp.
-                More than just a report management tool, our app supports local
-                businesses by offering a platform for eco-friendly and digital
-                advertising. Stay informed and engaged with everything happening
-                around you.
+              <h2 className="home-text043 title">Stay Updated Locally</h2>
+              <span className="home-text044">
+                Keep your finger on the pulse of your community with My Report
+                app. More than just a report management tool, our app supports
+                local businesses by offering a platform for eco-friendly and
+                digital advertising. Stay informed and engaged with everything
+                happening around you.
               </span>
               <a
                 href="mailto:info@reportcycle.com?subject=Need to know more about RC"
-                className="home-link06"
+                className="home-link07"
               >
                 <div className="home-learn-more3 template-button">
-                  <span className="home-text047">Learn more</span>
+                  <span className="home-text045">Learn more</span>
                 </div>
               </a>
             </div>
           </div>
         </div>
       </section>
-      <section className="home-integrations">
+      <section id="investment" className="home-investment">
         <div className="home-centered-container2">
           <div className="home-heading">
-            <span className="sub-title">Integrations</span>
-            <span className="title">
-              Integrated with the tools you know and love
+            <span className="sub-title">Investment</span>
+            <span className="home-text047 title">
+              Are you interested in investing in tech ideas
             </span>
-            <span className="home-text050">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
+            <span className="home-text048">
+              Just send us an email and simply express you interest, we will
+              arrange the rest
             </span>
           </div>
           <div className="home-pills-container">
             <div className="home-pills">
               <div className="home-container09">
+                <a
+                  href="mailto:info@reportcycle.com?subject=Investment"
+                  className="home-link08"
+                >
+                  <YouTube
+                    rootClassName="you-tube-root-class-name"
+                    className="home-email"
+                  ></YouTube>
+                </a>
+              </div>
+              <div className="home-container10">
                 <YouTube></YouTube>
                 <YouTube pastedImageSrc="/logos/group%201012-200h.webp"></YouTube>
                 <YouTube pastedImageSrc="/logos/layer1-200h.webp"></YouTube>
                 <YouTube pastedImageSrc="/logos/group-200h.webp"></YouTube>
               </div>
-              <div className="home-container10">
+              <div className="home-container11">
                 <YouTube pastedImageSrc="/logos/pinterest%20logo-200h.webp"></YouTube>
                 <YouTube pastedImageSrc="/logos/group%201014-200h.webp"></YouTube>
                 <YouTube pastedImageSrc="/logos/group%201015-200h.webp"></YouTube>
@@ -438,14 +456,14 @@ closeButton.addEventListener("click", function() {
       <section className="home-how-it-works">
         <div className="home-centered-container3">
           <div className="home-heading1">
-            <span className="home-text051">How it works</span>
-            <span className="home-text052 title">
+            <span className="home-text049">How it works</span>
+            <span className="home-text050 title">
               Being social and getting leads has never been easier
             </span>
           </div>
           <div className="home-category">
             <div className="home-headng">
-              <span className="home-text053">
+              <span className="home-text051">
                 1 — Sign up
                 <span
                   dangerouslySetInnerHTML={{
@@ -453,15 +471,15 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <span className="home-text054">
+              <span className="home-text052">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
               <div className="home-get-started1 template-button">
-                <span className="home-text055">Get started</span>
+                <span className="home-text053">Get started</span>
               </div>
             </div>
-            <div className="home-container11">
+            <div className="home-container12">
               <img
                 alt="pastedImage"
                 sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
@@ -474,8 +492,8 @@ closeButton.addEventListener("click", function() {
           <div className="home-row">
             <div className="home-category1">
               <div className="home-headng1">
-                <span className="home-text056">2 — Act</span>
-                <span className="home-text057">
+                <span className="home-text054">2 — Act</span>
+                <span className="home-text055">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
@@ -491,8 +509,8 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category2">
               <div className="home-headng2">
-                <span className="home-text058">2 — Act</span>
-                <span className="home-text059">
+                <span className="home-text056">2 — Act</span>
+                <span className="home-text057">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
@@ -512,29 +530,29 @@ closeButton.addEventListener("click", function() {
       <section className="home-pricing">
         <div className="home-centered-container4">
           <div className="home-heading2">
-            <span className="home-text060 title">
+            <span className="home-text058 title">
               Pricing for all kind of businesses
             </span>
-            <span className="home-text061">
+            <span className="home-text059">
               Create next-generation solutions for small business customers with
               pricing options that accommodate everyone.
             </span>
             <div className="home-selection">
-              <span className="home-text062">Monthly</span>
-              <span className="home-text063">Yearly</span>
+              <span className="home-text060">Monthly</span>
+              <span className="home-text061">Yearly</span>
             </div>
           </div>
           <div className="home-cards1">
             <div className="home-card">
-              <span className="home-text064">Free</span>
-              <span className="home-text065">
+              <span className="home-text062">Free</span>
+              <span className="home-text063">
                 Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                 elit, sed doliqua.
               </span>
               <div className="home-get-started2 template-button">
-                <span className="home-text066">Start for free</span>
+                <span className="home-text064">Start for free</span>
               </div>
-              <span className="home-text067">What&apos;s included</span>
+              <span className="home-text065">What&apos;s included</span>
               <div className="home-bullet-points">
                 <div className="home-point">
                   <svg
@@ -543,7 +561,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text068">
+                  <span className="home-text066">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -554,26 +572,26 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text069">
+                  <span className="home-text067">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
               </div>
             </div>
             <div className="home-card1">
-              <span className="home-text070">Pay as you go</span>
-              <span className="home-text071">
+              <span className="home-text068">Pay as you go</span>
+              <span className="home-text069">
                 <span>Launch your lorem for $49/mo</span>
                 <br></br>
                 <span>lorem ipsum dolor sit amet, consectetur adipiscing.</span>
               </span>
               <div className="home-get-started3 template-button">
-                <span className="home-text075">
+                <span className="home-text073">
                   <span>Upgrade now</span>
                   <br></br>
                 </span>
               </div>
-              <span className="home-text078">What&apos;s included</span>
+              <span className="home-text076">What&apos;s included</span>
               <div className="home-bullet-points1">
                 <div className="home-point02">
                   <svg
@@ -582,7 +600,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text079">
+                  <span className="home-text077">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -593,7 +611,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text080">
+                  <span className="home-text078">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -604,7 +622,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text081">
+                  <span className="home-text079">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -615,15 +633,15 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text082">
+                  <span className="home-text080">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
               </div>
             </div>
             <div className="home-card2">
-              <span className="home-text083">Enterprise</span>
-              <span className="home-text084">
+              <span className="home-text081">Enterprise</span>
+              <span className="home-text082">
                 <span>
                   Custom-built lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed doliqua.
@@ -631,12 +649,12 @@ closeButton.addEventListener("click", function() {
                 <br></br>
               </span>
               <div className="home-get-started4 template-button">
-                <span className="home-text087">
-                  <a href="#contact"><span>Contact us</span></a>
+                <span className="home-text085">
+                  <span>Contact us</span>
                   <br></br>
                 </span>
               </div>
-              <span className="home-text090">What&apos;s included</span>
+              <span className="home-text088">What&apos;s included</span>
               <div className="home-bullet-points2">
                 <div className="home-point06">
                   <svg
@@ -645,7 +663,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text091">
+                  <span className="home-text089">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -656,7 +674,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text092">
+                  <span className="home-text090">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -667,7 +685,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text093">
+                  <span className="home-text091">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -678,7 +696,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text094">
+                  <span className="home-text092">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -689,8 +707,8 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className="home-testimonals">
         <div className="home-left3">
-          <span className="home-text095">Testimonals</span>
-          <span className="home-text096 title">
+          <span className="home-text093">Testimonals</span>
+          <span className="home-text094 title">
             What people say about MyReport App
           </span>
         </div>
@@ -746,7 +764,7 @@ closeButton.addEventListener("click", function() {
             ></Testimonal>
           </div>
         </div>
-        <span className="home-text097">
+        <span className="home-text095">
           <span>Show more</span>
           <br></br>
         </span>
@@ -754,20 +772,20 @@ closeButton.addEventListener("click", function() {
       <section className="home-action-bar">
         <div className="home-action">
           <div className="home-heading3">
-            <span className="home-text100 title">
+            <span className="home-text098 title">
               Would you like to support your city?
             </span>
-            <span className="home-text101">
+            <span className="home-text099">
               Start using MyReportApp right now!
             </span>
             <a
               href="https://myreport.app"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link07"
+              className="home-link09"
             >
               <div className="home-get-started5 template-button">
-                <span className="home-text102">
+                <span className="home-text100">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -787,8 +805,8 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className="home-faq">
         <div className="home-heading4">
-          <span className="home-text105 title">Frequently asked questions</span>
-          <span className="home-text106">
+          <span className="home-text103 title">Frequently asked questions</span>
+          <span className="home-text104">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
           </span>
@@ -796,7 +814,7 @@ closeButton.addEventListener("click", function() {
         <div className="home-accordion">
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header1">
-              <span className="home-text107">
+              <span className="home-text105">
                 — What is Report Cycle?
                 <span
                   dangerouslySetInnerHTML={{
@@ -809,7 +827,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text108">
+              <span className="home-text106">
                 Report Cycle is a mobile app designed to help residents report
                 city issues easily and track their resolution in real-time.
                 <span
@@ -822,13 +840,13 @@ closeButton.addEventListener("click", function() {
           </div>
           <div className="accordionContainer">
             <div className="home-header2">
-              <span className="home-text109">— How do I report an issue?</span>
+              <span className="home-text107">— How do I report an issue?</span>
               <svg viewBox="0 0 1024 1024" className="accordionIcon">
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text110">
+              <span className="home-text108">
                 Open the app, tap the &quot;Report&quot; button, snap or upload
                 a photo, provide a brief description and location, and submit.
                 <span
@@ -841,7 +859,7 @@ closeButton.addEventListener("click", function() {
           </div>
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header3">
-              <span className="home-text111">
+              <span className="home-text109">
                 — Can I track the progress of my report?
               </span>
               <svg viewBox="0 0 1024 1024" className="accordionIcon">
@@ -849,7 +867,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text112">
+              <span className="home-text110">
                 Yes, you will receive real-time notifications and can view
                 updates within the app.
                 <span
@@ -862,7 +880,7 @@ closeButton.addEventListener("click", function() {
           </div>
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header4">
-              <span className="home-text113">
+              <span className="home-text111">
                 — Is my data secure?
                 <span
                   dangerouslySetInnerHTML={{
@@ -875,7 +893,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text114">
+              <span className="home-text112">
                 Absolutely. We prioritize your privacy and employ robust
                 security measures to protect your data.
                 <span
@@ -888,7 +906,7 @@ closeButton.addEventListener("click", function() {
           </div>
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header5">
-              <span className="home-text115">
+              <span className="home-text113">
                 — Can I see reports from other users?
               </span>
               <svg viewBox="0 0 1024 1024" className="accordionIcon">
@@ -896,7 +914,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text116">
+              <span className="home-text114">
                 Yes, you can explore and support reports submitted by others in
                 your community.
                 <span
@@ -909,7 +927,7 @@ closeButton.addEventListener("click", function() {
           </div>
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header6">
-              <span className="home-text117">
+              <span className="home-text115">
                 — How do city officials use the app?
               </span>
               <svg viewBox="0 0 1024 1024" className="accordionIcon">
@@ -917,7 +935,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text118">
+              <span className="home-text116">
                 City officials access comprehensive data insights to prioritize
                 and address issues efficiently.
                 <span
@@ -930,13 +948,13 @@ closeButton.addEventListener("click", function() {
           </div>
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header7">
-              <span className="home-text119">— Is the app free to use?</span>
+              <span className="home-text117">— Is the app free to use?</span>
               <svg viewBox="0 0 1024 1024" className="accordionIcon">
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text120">
+              <span className="home-text118">
                 Yes, Report Cycle is free for end-users.
                 <span
                   dangerouslySetInnerHTML={{
@@ -948,13 +966,13 @@ closeButton.addEventListener("click", function() {
           </div>
           <div data-faq="closed" className="accordionContainer">
             <div className="home-header8">
-              <span className="home-text121">— How do I get started?</span>
+              <span className="home-text119">— How do I get started?</span>
               <svg viewBox="0 0 1024 1024" className="accordionIcon">
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
             </div>
             <div className="accordionContent">
-              <span className="home-text122">
+              <span className="home-text120">
                 <span>
                   Download the Report Cycle app from your app store or visit our
                   <span
@@ -967,7 +985,7 @@ closeButton.addEventListener("click", function() {
                   href="https://myreport.app"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link08"
+                  className="home-link10"
                 >
                   webapp
                 </a>
@@ -985,7 +1003,7 @@ closeButton.addEventListener("click", function() {
           </div>
         </div>
         <div>
-          <div className="home-container13">
+          <div className="home-container14">
             <React.Fragment>
               <Script>{`
 // Accordion - Code Embed
@@ -1046,7 +1064,7 @@ Here's what the above is doing:
       <footer className="home-footer">
         <div className="home-top">
           <div className="home-top1">
-            <span className="home-text125">Subscribe to our newsletter</span>
+            <span className="home-text123">Subscribe to our newsletter</span>
             <div className="home-subscription">
               <input
                 type="email"
@@ -1054,18 +1072,18 @@ Here's what the above is doing:
                 className="home-textinput input"
               />
               <div className="home-subscribe">
-                <span className="home-text126">Subscribe</span>
+                <span className="home-text124">Subscribe</span>
               </div>
             </div>
-            <span className="home-text127">
+            <span className="home-text125">
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
-            <div className="home-contact" id="contact">
-              <span className="home-text128">Contact</span>
+            <div className="home-contact">
+              <span className="home-text126">Contact</span>
               <a
                 href="mailto:info@reportcycle.com?subject=Support"
-                className="home-link09"
+                className="home-link11"
               >
                 info@reportcycle.com
               </a>
@@ -1073,42 +1091,42 @@ Here's what the above is doing:
           </div>
           <div className="home-bottom">
             <div className="home-category3">
-              <span className="home-text129">Solutions</span>
+              <span className="home-text127">Solutions</span>
               <div className="home-links2">
-                <span className="home-text130">Responsive Web Design</span>
-                <span className="home-text131">Responsive Prototypesv</span>
-                <span className="home-text132">Design to Code</span>
-                <span className="home-text133">Static Website Builder</span>
-                <span className="home-text134">Static Website Generator</span>
+                <span className="home-text128">Responsive Web Design</span>
+                <span className="home-text129">Responsive Prototypesv</span>
+                <span className="home-text130">Design to Code</span>
+                <span className="home-text131">Static Website Builder</span>
+                <span className="home-text132">Static Website Generator</span>
               </div>
             </div>
             <div className="home-category4">
-              <span className="home-text135">Company</span>
+              <span className="home-text133">Company</span>
               <div className="home-links3">
-                <span className="home-text136">About</span>
-                <span className="home-text137">Team</span>
-                <span className="home-text138">News</span>
-                <span className="home-text139">Partners</span>
-                <span className="home-text140">Careers</span>
-                <span className="home-text141">Press &amp; Media</span>
+                <span className="home-text134">About</span>
+                <span className="home-text135">Team</span>
+                <span className="home-text136">News</span>
+                <span className="home-text137">Partners</span>
+                <span className="home-text138">Careers</span>
+                <span className="home-text139">Press &amp; Media</span>
               </div>
             </div>
             <div className="home-category5">
-              <span className="home-text142">Solutions</span>
+              <span className="home-text140">Solutions</span>
               <div className="home-links4">
-                <span className="home-text143">Twitter</span>
-                <span className="home-text144">Linkedin</span>
-                <span className="home-text145">Crunchbase</span>
-                <span className="home-text146">Instagram</span>
-                <span className="home-text147">Facebook</span>
+                <span className="home-text141">Twitter</span>
+                <span className="home-text142">Linkedin</span>
+                <span className="home-text143">Crunchbase</span>
+                <span className="home-text144">Instagram</span>
+                <span className="home-text145">Facebook</span>
               </div>
             </div>
           </div>
         </div>
         <div className="home-bottom1">
           <img alt="RC" src="/logos/logo-rc.svg" className="home-branding" />
-          <span className="home-text148">
-            <span className="home-text149">
+          <span className="home-text146">
+            <span className="home-text147">
               Copyright © Report Cycle - 2024
             </span>
             <br></br>

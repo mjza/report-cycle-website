@@ -162,6 +162,7 @@
 }
 .sub-title {
   color: rgb(82, 40, 245);
+  font-size: larger;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
