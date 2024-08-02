@@ -21,7 +21,7 @@
     "serve": "serve -s build"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "browserslist": {
     "production": [
