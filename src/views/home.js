@@ -74,6 +74,17 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-right">
+                <a 
+                  href="#investment" 
+                  className="home-text004 Link">
+                  Investment
+                </a>
+                <a
+                  href="https://forms.gle/5gY88fZoEQyzD497A"
+                  className="home-link03"
+                >
+                  <span className="home-sign-in Link">Join Our Team</span>
+                </a>
                 <a
                   href="mailto:info@reportcycle.com?subject=Need more info"
                   className="home-link03"
@@ -81,7 +92,7 @@ const Home = (props) => {
                   <span className="home-sign-in Link">Contact Us</span>
                 </a>
                 <a
-                  href="https://myreport.app"
+                  href="https://app.reportcycle.com/"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link02"
@@ -779,7 +790,7 @@ closeButton.addEventListener("click", function() {
               Start using MyReportApp right now!
             </span>
             <a
-              href="https://myreport.app"
+              href="https://app.reportcycle.com"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link09"
@@ -982,7 +993,7 @@ closeButton.addEventListener("click", function() {
                   />
                 </span>
                 <a
-                  href="https://myreport.app"
+                  href="https://app.reportcycle.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link10"
