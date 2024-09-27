@@ -82,6 +82,7 @@ const Home = (props) => {
                 <a
                   href="https://forms.gle/5gY88fZoEQyzD497A"
                   className="home-link03"
+                  target="_blank"
                 >
                   <span className="home-sign-in Link">Join Our Team</span>
                 </a>
