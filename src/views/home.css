@@ -237,7 +237,7 @@
 }
 .home-image {
   width: 900px;
-  z-index: 999;
+  z-index: 1;
   user-select: none;
 }
 .home-features {

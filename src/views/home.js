@@ -34,14 +34,25 @@ const Home = (props) => {
             <img
               alt="pastedImage"
               sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-              src="/pastedimage-no9b-1500h.webp"
-              srcSet="/pastedimage-no9b-1500h.webp 1200w, /pastedimage-no9b-tablet.webp 800w, /pastedimage-no9b-mobile.webp 480w"
+              src="/logos/logo-rc.svg"              
               className="home-logo"
             />
             <div className="home-links">
-              <span className="Link">Solutions</span>
-              <span className="Link">How it works</span>
-              <span className="Link">Prices</span>
+              <a
+                  href="https://forms.gle/5gY88fZoEQyzD497A"
+                  className="home-link03"
+                  target="_blank"
+                >
+                  <span className="Link">Join Our Team</span>
+                </a>
+                <a
+                  href="https://app.reportcycle.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link03"
+                >
+                  <span className="Link">Get Started</span>
+                </a>              
             </div>
             <div id="close-mobile-menu" className="home-close-mobile-menu">
               <svg viewBox="0 0 804.5714285714286 1024" className="home-icon">
